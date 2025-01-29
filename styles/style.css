@@ -9,22 +9,24 @@ header {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
 }
-.nav-menu{
+
+.nav-menu {
    font-size: 18px;
   font-weight: 400;
   text-underline-offset: 4px;
   line-height: 24px;
 }
+
 .nav-menu-top {
   width: 100%;
   padding-left: 50px;
   padding-top: 130px;
   padding-bottom: 138px;
 }
-footer .contact-info  {
+
+footer .contact-info {
   font-size: 18px;
   line-height: 24px;
-
 }
 
 .nav-menu-top .menu-list {
@@ -58,7 +60,6 @@ footer .contact-info  {
 .address-wrapper {
   width: 240px;
   margin-left: 40px;
-
 }
 
 .address-wrapper > p {
@@ -78,6 +79,7 @@ footer .contact-info  {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -110,10 +112,12 @@ footer .contact-info  {
   font-weight: 700;
   letter-spacing: 30px;
 }
+
 .banner_title > span:nth-of-type(1) {
   text-align: left;
   padding-left: 50px;
 }
+
 .banner_title > span:nth-of-type(2) {
   text-align: center;
   padding-left: 30px;
@@ -138,6 +142,7 @@ footer .contact-info  {
   align-content: center;
   z-index: 2;
 }
+
 button {
   width: 256px;
   height: 51px;
@@ -151,12 +156,12 @@ button {
 .lots {
   margin-top: 182px;
 }
+
 .lots_container {
   color: black;
   font-weight: 700;
-  margin-bottom: 6px;
-
 }
+
 .lot-card {
   padding: 48px 40px;
   display: grid;
@@ -180,7 +185,9 @@ button {
   gap: 25px;
   padding: 27px 24px 24px 24px;
   position: relative;
+  margin-bottom: 6px;
 }
+
 .lot-card_link {
   display: block; 
   width: 100%;
@@ -189,17 +196,20 @@ button {
   background-position: center; 
   background-repeat: no-repeat;  
 }
+
 .lot-card_link:nth-of-type(1) {
   background-image: url(../images/card-lot-01.jpg);
 }
+
 .lot-card_link:nth-of-type(2) {
   background-image: url(../images/card-lot-02.jpg);
 }
+
 .lot-card_link:nth-of-type(3) {
   background-image: url(../images/card-lot-03.jpg);
 }
-.lot-title 
- {
+
+.lot-title {
   font-size: 22px;
   font-weight: 700;
   color: white;
@@ -209,7 +219,6 @@ button {
   text-decoration-thickness: 1px;
   line-height: 26px;
   z-index: 2;
-  
 }
 
 .lot-description {
@@ -221,13 +230,12 @@ button {
   line-height: 24px;
   z-index: 2;
 }
+
 .lot-card_link  {
   display: block;
   text-decoration: none; 
   color: inherit; 
   position: relative;
-
-
 }
 
 .button-see-more { 
@@ -239,7 +247,6 @@ button {
 }
 
 .about {
-
   width: 100%;
   place-items: center;
   margin-top: 120px;
@@ -272,17 +279,20 @@ button {
   margin-top: 136px;
   margin-left: 9px;
 }
+
 .text-content h2 {
   font-size: 40px;
   font-weight: 700;
   padding-bottom: 100px;
 }
+
 .text-content p {
   font-size: 20px;
   font-weight: 400;
   padding-bottom: 24px;
   line-height: 24px;
 }
+
 footer {
   display: grid;
   margin-top: 156px;
@@ -293,23 +303,21 @@ footer {
   text-underline-offset: 4px;
 }
 
-
 .nav-menu-bottom .menu-list { 
   margin-left: 2px;
   place-items: center;
   display: block;
   list-style-type: none;
   margin-bottom: 3px;
-  line-height: 22px;
-  
+  line-height: 22px; 
 }
 
 .social-icons {
   display: grid;
   gap: 48px;
   grid-auto-flow: column;
-  
 }
+
 .social-icons img {
   width: 48px; 
   height: 48px; 
