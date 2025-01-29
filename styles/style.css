@@ -188,9 +188,12 @@ button {
 }
 
 .lot-card_link {
+  position: relative;
   display: block;
   width: 100%;
   height: 100%;
+  color: inherit;
+  text-decoration: none;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -227,13 +230,6 @@ button {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  text-decoration: none;
-}
-
-.lot-card_link {
-  position: relative;
-  display: block;
-  color: inherit;
   text-decoration: none;
 }
 
