@@ -24,8 +24,9 @@ header {
   padding-left: 50px;
 }
 
-footer .contact-info {
+footer .address-bottom {
   font-size: 18px;
+  font-style: normal;
   line-height: 24px;
 }
 
@@ -48,25 +49,20 @@ footer .contact-info {
   margin-left: 43px;
 }
 
-.address {
-  display: flex;
+.address-top {
   align-items: center;
   width: 100%;
+  width: 240px;
   margin-bottom: 2px;
+  margin-left: 40px;
+  font-style: normal;
+  line-height: 24px;
   text-decoration-thickness: 4px;
   text-underline-offset: 4px;
 }
 
-.address-wrapper {
-  width: 240px;
-  margin-left: 40px;
-}
-
-.address-wrapper > p {
-  line-height: 24px;
-}
-
-.menu-item, .active .menu-link {
+.menu-item,
+.active .menu-link {
   text-decoration: none;
 }
 
@@ -104,6 +100,7 @@ footer .contact-info {
   justify-content: space-between;
   margin-top: 168px;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .banner_title > span {
@@ -139,6 +136,7 @@ footer .contact-info {
   color: #fff;
   font-weight: 400;
   font-size: 22px;
+  text-transform: uppercase;
   word-spacing: 18.5px;
 }
 
@@ -149,6 +147,10 @@ button {
   margin-right: 50px;
   border: 1px solid white;
   color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
   background-color: transparent;
 }
 
@@ -157,7 +159,6 @@ button {
 }
 
 .lots_container {
-  color: black;
   font-weight: 700;
 }
 
@@ -176,6 +177,7 @@ button {
 .lots-title {
   padding-left: 64px;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .cards_container {
@@ -194,20 +196,17 @@ button {
   height: 100%;
   color: inherit;
   text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
-.lot-card_link:nth-of-type(1) {
+.lot-card.card-type_people_in_the_garden {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.lot-card_link:nth-of-type(2) {
+.lot-card.card-type_red_door {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.lot-card_link:nth-of-type(3) {
+.lot-card.card-type_abstract_image {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -233,7 +232,7 @@ button {
   text-decoration: none;
 }
 
-.button-see-more {
+.button_lots-section {
   padding-left: 64px;
   font-weight: 400;
   font-size: 20px;
@@ -265,9 +264,10 @@ button {
   background-color: black;
 }
 
-.about-logo {
+.about-logo img {
   width: 148px;
   height: 114px;
+  object-fit: contain;
 }
 
 .text-content {
@@ -276,13 +276,14 @@ button {
   margin-left: 9px;
 }
 
-.text-content h2 {
+.about-title {
   padding-bottom: 100px;
   font-weight: 700;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
-.text-content p {
+.about-description {
   padding-bottom: 24px;
   font-weight: 400;
   font-size: 20px;
