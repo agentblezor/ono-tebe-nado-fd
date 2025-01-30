@@ -25,8 +25,7 @@ jobs:
           project: 'ono-tebe-nado-fd'
 
       - name: Upload test results
-        uses: actions/upload-artifact@v3  
+        uses: actions/upload-artifact@latest  
         with:
           name: build_outputs
           path: path/to/test-results  
-
