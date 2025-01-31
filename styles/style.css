@@ -24,12 +24,6 @@ header {
   padding-left: 50px;
 }
 
-footer .address-bottom {
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24px;
-}
-
 .nav-menu-top .menu-list {
   display: flex;
   justify-content: space-between;
@@ -48,16 +42,18 @@ footer .address-bottom {
   margin-bottom: 0px;
   margin-left: 43px;
 }
-
-.address-top {
+address {
   align-items: center;
   width: 100%;
-  margin-bottom: 2px;
-  margin-left: 40px;
+  font-size: 18px;
   font-style: normal;
   line-height: 24px;
   text-decoration-thickness: 4px;
   text-underline-offset: 4px;
+}
+.address-top {
+  margin-bottom: 2px;
+  margin-left: 40px;
 }
 
 .menu-item,
